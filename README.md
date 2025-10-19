@@ -1,89 +1,47 @@
-Space Explorer: Xenovita Escape
+# 🚀 Space Explorer: Xenovita Escape 🌌
 
-Author: Romeo Bartha
-Date: 25/11/2024
+**Author:** Romeo Bartha  
+**Date:** 25/11/2024  
 
-Description
+## 🌟 Description
+*Space Explorer: Xenovita Escape* is a text-based adventure game where the player is stranded on a mysterious planet called **Xenovita**. The goal is to explore the planet, solve puzzles, collect fuel ⛽, and escape before running out of oxygen 🫧.
 
-Space Explorer: Xenovita Escape is a text-based adventure game where the player is stranded on a mysterious planet called Xenovita. The goal of the game is to explore the planet, solve puzzles, collect fuel, and escape before running out of oxygen.
+Players navigate different discoveries on the planet, solve riddles or math puzzles to gain fuel, and carefully manage their oxygen levels to survive and escape.
 
-The player must navigate different discoveries on the planet, solve riddles or math puzzles to gain fuel, and carefully manage their oxygen levels to survive and escape.
+---
 
-Features
+## 🛠️ Features
+- **Planet Exploration 🪐:** Explore multiple discoveries on Xenovita.  
+- **Puzzles 🧩:** Solve riddles or math problems to collect fuel.  
+- **Fuel Collection ⛽:** Fuel is required to power the rocket and escape.  
+- **Oxygen Management 🫧:** Oxygen decreases with each exploration. Monitor carefully!  
+- **Replayable 🔄:** Randomized puzzles provide a unique experience each time.  
+- **Menu System 📜:** Options to explore, review fuel locations, check oxygen/fuel, or quit.  
 
-Planet Exploration: Players can explore multiple discoveries on the planet.
+---
 
-Puzzles: Includes both riddles and math puzzles that need to be solved to collect fuel.
+## 🎮 Gameplay Instructions
+1. **Start the Game:** Run the script to begin your adventure.  
+2. **Explore Discoveries 🪐:** Choose a location on Xenovita to explore.  
+3. **Solve Puzzles 🧩:** Complete riddles or math puzzles to earn fuel.  
+4. **Monitor Resources 🫧⛽:** Keep track of oxygen and fuel levels.  
+5. **Escape 🚀:** Collect at least **100L of fuel** before oxygen runs out to escape the planet.  
+6. **Game Over 💀:** If oxygen reaches 0 before collecting enough fuel, the game ends and you must restart.  
 
-Fuel Collection: Fuel is required to power the rocket and escape Xenovita.
+---
 
-Oxygen Management: Oxygen decreases with every exploration. Players must monitor oxygen levels carefully.
+## 📚 Classes Overview
+- **Planet 🌍:** Tracks discoveries and clues.  
+- **Player 👨‍🚀:** Manages oxygen, fuel, and location.  
+- **Puzzle (abstract) 🧩:** Base class for different puzzle types.  
+  - **RiddlePuzzle 🪐:** Presents riddles to the player.  
+  - **MathPuzzle ➗:** Presents random math problems.  
+- **Space 🌌:** Handles game flow, menus, exploration, and puzzle integration.  
 
-Replayable: Puzzles are randomized to provide a different experience every time.
+---
 
-Menu System: Options to explore, review fuel locations, check oxygen/fuel levels, or quit the game.
-
-Gameplay Instructions
-
-Start the Game: Run the game script to begin your adventure.
-
-Explore Discoveries: Choose from available discoveries on Xenovita to explore.
-
-Solve Puzzles: Complete a riddle or math puzzle at each location to earn fuel.
-
-Monitor Resources: Keep an eye on your oxygen and fuel levels.
-
-Escape: Collect at least 100L of fuel before oxygen runs out to escape the planet successfully.
-
-Game Over: If oxygen reaches 0 before you collect enough fuel, the game ends, and you must restart.
-
-Classes Overview
-
-Planet: Represents the planet and tracks discoveries and clues.
-
-Player: Represents the player’s oxygen, fuel, and location.
-
-Puzzle (abstract): Base class for different types of puzzles.
-
-RiddlePuzzle: Presents riddles to the player.
-
-MathPuzzle: Presents random math problems.
-
-Space: Handles the game flow, menu, exploration, and puzzle integration.
-
-Installation and Requirements
-
-Python 3.8+ is required to run the game.
-
-Install required dependencies:
-
+## 💻 Installation and Requirements
+- **Python 3.8+** is required.  
+- Install dependencies:  
+```bash
 pip install colorama
-
-
-Run the game:
-
-python space_explorer.py
-
-Game Controls
-
-1: Explore a new discovery
-
-2: Review fuel locations discovered
-
-3: Check current oxygen and fuel levels
-
-4: Quit the game
-
-Notes
-
-Each discovery consumes a random amount of oxygen (10–25%).
-
-Fuel gained per puzzle solved is randomized between 10–30L.
-
-The game provides ASCII art for a visual feel of exploration and success/failure.
-
-Credits
-
-Developed by Romeo Bartha
-
-Uses Colorama for colored text output.
